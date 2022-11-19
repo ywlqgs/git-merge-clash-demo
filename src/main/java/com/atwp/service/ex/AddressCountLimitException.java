@@ -1,0 +1,25 @@
+package com.atwp.service.ex;
+
+/**收获地址超出限制的异常（10条）*/
+public class AddressCountLimitException extends ServiceException{
+
+    public AddressCountLimitException() {
+        super();
+    }
+
+    public AddressCountLimitException(String message) {
+        super(message);
+    }
+
+    public AddressCountLimitException(String message, Throwable cause) {
+        super(message, cause);
+    }
+
+    public AddressCountLimitException(Throwable cause) {
+        super(cause);
+    }
+
+    protected AddressCountLimitException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
+        super(message, cause, enableSuppression, writableStackTrace);
+    }
+}

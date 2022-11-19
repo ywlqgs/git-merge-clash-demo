@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/store?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: peng0919
+  servlet:
+    multipart:
+     # max-file-size: 10MB  #最大上传文件大小为10MB
+     # max-request-size: 15MB #最大请求大小为15MB(请求中包括文件上传)
+mybatis:
+  mapper-locations: classpath:mapper/*.xml #将配置路径下的*.xml文件加载到mybatis中
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #输出日志到控制台
+    map-underscore-to-camel-case: true #开启驼峰命名 不需要resultMap映射
+
+user:
+  address:
+    max-count: 10 #自定义配置 最大地址数为10  Spring读取配置文件中的数据: @Value("${user.address.max-count}")
