@@ -11,8 +11,8 @@ import org.springframework.util.unit.DataUnit;
 
 import javax.servlet.MultipartConfigElement;
 
-//制造冲突1
-//git创造冲突1
+//制造冲突1 --b1分支
+//git创造冲突1 --bi分支
 @SpringBootApplication
 @MapperScan("com.atwp.mapper")
 public class StoreApplication {
