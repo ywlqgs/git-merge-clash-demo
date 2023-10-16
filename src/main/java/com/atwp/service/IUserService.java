@@ -1,6 +1,6 @@
 package com.atwp.service;
 
-import com.atwp.common.User;
+import com.atwp.entity.User;
 
 /**
  * 用户模块业务层接口

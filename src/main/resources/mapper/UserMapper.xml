@@ -6,7 +6,7 @@
 
     <!-- 询的结果集字段和实体类的user属性名不一致，自定义查询结果集的映射规则
             id和type属性具体用法 查看官方文档-->
-    <resultMap id="UserEntityMap" type="com.atwp.common.User">
+    <resultMap id="UserEntityMap" type="com.atwp.entity.User">
 <!--        在定义映射规则时主键是不可以省略的-->
         <id property="uid" column="uid"/>
         <result property="username" column="username"/>

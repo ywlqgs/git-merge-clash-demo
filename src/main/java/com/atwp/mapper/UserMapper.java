@@ -1,6 +1,7 @@
 package com.atwp.mapper;
 
-import com.atwp.common.User;
+import com.atwp.entity.User;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;

@@ -1,9 +1,12 @@
 package com.atwp.service;
 
 import com.atwp.entity.Address;
+import com.atwp.entity.User;
+import com.atwp.service.ex.ServiceException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.util.DigestUtils;
 
 /**
  * 测试收货地址功能

@@ -1,6 +1,6 @@
 package com.atwp.service.impl;
 
-import com.atwp.common.User;
+import com.atwp.entity.User;
 import com.atwp.mapper.UserMapper;
 import com.atwp.service.IUserService;
 import com.atwp.service.ex.*;
@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.UUID;
 
