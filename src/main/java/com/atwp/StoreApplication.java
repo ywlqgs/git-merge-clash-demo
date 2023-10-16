@@ -13,6 +13,8 @@ import javax.servlet.MultipartConfigElement;
 
 //制造冲突1 --master分支1
 //git创造冲突1 --master分支1
+//制造冲突1 --b1分支1
+//git创造冲突1 --bi分支1
 @SpringBootApplication
 @MapperScan("com.atwp.mapper")
 public class StoreApplication {
