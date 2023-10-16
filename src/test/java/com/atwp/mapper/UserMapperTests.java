@@ -1,7 +1,6 @@
 package com.atwp.mapper;
 
-import com.atwp.entity.User;
-import lombok.extern.slf4j.Slf4j;
+import com.atwp.common.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,7 +1,6 @@
 package com.atwp.service;
 
-import com.atwp.entity.User;
-import com.atwp.mapper.UserMapper;
+import com.atwp.common.User;
 import com.atwp.service.ex.ServiceException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
